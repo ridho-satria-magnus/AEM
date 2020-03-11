@@ -1,0 +1,13 @@
+// Below we extract information about the request object path
+// information.
+
+//URI Example = http://localhost:8080/urlinfo?x=1&y=1
+//code running on AEM JS Use API
+
+request.getScheme() = http
+request.getServerName() = localhost
+request.getServerPort() = 8080
+request.getContextPath() = ''
+request.getServletPath() = /urlinfo
+request.getPathInfo() = null
+request.getQueryString() = x=1&y=1
