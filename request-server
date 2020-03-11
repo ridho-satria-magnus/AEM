@@ -1,8 +1,6 @@
-// Below we extract information about the request object path
-// information.
-
-//URI Example = http://localhost:8080/urlinfo?x=1&y=1
-//code running on AEM JS Use API
+// Below we extract information about the request object path url information.
+// The path example url = http://localhost:8080/urlinfo?x=1&y=1
+// code running on AEM JS Use API
 
 request.getScheme() = http
 request.getServerName() = localhost
